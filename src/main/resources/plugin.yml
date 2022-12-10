@@ -1,0 +1,19 @@
+name: DungeonGenerator
+author: EndergamerHUN
+version: '${project.version}'
+main: io.github.endergamerhun.dungeongenerator.DungeonGenerator
+api-version: 1.18
+
+commands:
+  dungeongenerator:
+    description: All the commands used by DungeonGenerator
+    permission: dungeonsgenerator.use
+    aliases: [dg]
+
+permissions:
+  dungeongenerator.use:
+    description: Access the DungeonGenerator command
+  dungeongenerator.reload:
+    description: Reload the config
+  dungeongenerator.generate:
+    description: Generate a dungeon
